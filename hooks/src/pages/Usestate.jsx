@@ -2,7 +2,8 @@
 import React, { useState } from 'react'
 
 const Usestate = () => {
-    const[count,setCount]=useState(0)
+    //  The initial value of 'count' is set to 0.
+    const[count,setCount]=useState(0)   
     const inc=()=>{
         setCount(count+1)
     }
