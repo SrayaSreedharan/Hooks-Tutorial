@@ -13,7 +13,7 @@ const initialState={count:0}
         case 'dec':
           return { count: state.count - 1 };
         default:
-          throw new Error();
+           return state;
       }
     }
 
