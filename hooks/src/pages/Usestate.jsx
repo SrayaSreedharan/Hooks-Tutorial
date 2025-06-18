@@ -3,8 +3,8 @@ import React, { useState } from 'react'
 
 const Usestate = () => {
     //  The initial value of 'count' is set to 0.
-    const[count,setCount]=useState(0)   
-    const inc=()=>{
+    const [count, setCount] = useState(0)   
+    const inc =()=>{
         setCount(count+1)
     }
      const dec=()=>{

@@ -8,7 +8,7 @@ import UseReducer from './pages/UseReducer.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* <App /> */}
-    {/* <Usestate/> */}
+    <Usestate/>
     <UseReducer/>
   </StrictMode>,
 )
